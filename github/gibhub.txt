@@ -1,4 +1,0 @@
-
-username: lleses
-password: didi123456
-emil : 840851604@qq.com
