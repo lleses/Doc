@@ -1,0 +1,8 @@
+之前使用了注解@controller。而为了返回response对象，应使用@Restresponse。@Restresponse是spring4.0重要的一个新的改进，它继承自@Controller注解。
+
+@RestController作用：
+　　注解整合了@Controller和@ResponseBody。使用了这个注解的类会被看作一个controller。controller中使用@RequestMapping的方法有一个默认的@ResponseBody注解。@ResponseBody也可以加到类一级，通过继承方法一级不需要添加。
+@Responsebody 作用：
+　　该注解用于将Controller的方法返回的对象，通过适当的HttpMessageConverter转换为指定格式后，写入到Response对象的body数据区。
+使用时机：
+　　返回的数据不是html标签的页面，而是其他某种格式的数据时（如json、xml等）使用。
