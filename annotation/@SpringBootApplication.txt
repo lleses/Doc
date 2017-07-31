@@ -1,0 +1,4 @@
+@SpringBootApplication的使用
+
+http://blog.csdn.net/u013473691/article/details/52353923
+
