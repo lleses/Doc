@@ -1,0 +1,8 @@
+update tab_user set 
+is_task_reminder=1,is_task_active=1,is_task_late=1,
+is_task_skip=0,is_task_reject=0,is_task_cancel=0,
+is_task_hold=0,is_task_reinstate=0,is_task_reassign_previous=0,
+is_task_reassign_new=0,is_new_cycle_notify=0,is_new_item_add=0,
+is_reject_item_notify=0,is_auto_skip_email=0,is_discussion_notify_email=0,
+is_ds_comment_mail=0,is_dt_notify_email=0
+where user_id=1070;
