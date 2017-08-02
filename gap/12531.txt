@@ -1,0 +1,14 @@
+----查询，用于Kingfisher 进行批准。
+select user_id,forename,surname,login,email_adr from tab_user where user_id not in(
+	select user_id from tab_user_loginout_log where action_time>= cast('2016-07-01' as datetime) group by user_id
+) order by user_id desc;
+
+
+
+
+-----执行
+update tab_user set is_enable=0 where user_id in(
+	select user_id,forename,surname,login,email_adr from tab_user where user_id not in(
+		select user_id from tab_user_loginout_log where action_time>= cast('2016-07-01' as datetime) group by user_id
+	) order by user_id desc
+);
