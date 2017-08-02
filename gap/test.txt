@@ -1,8 +1,40 @@
+
+------
 update tab_user set 
 is_task_reminder=1,is_task_active=1,is_task_late=1,
 is_task_skip=0,is_task_reject=0,is_task_cancel=0,
 is_task_hold=0,is_task_reinstate=0,is_task_reassign_previous=0,
 is_task_reassign_new=0,is_new_cycle_notify=0,is_new_item_add=0,
 is_reject_item_notify=0,is_auto_skip_email=0,is_discussion_notify_email=0,
-is_ds_comment_mail=0,is_dt_notify_email=0
-where user_id=1070;
+is_ds_comment_mail=0,is_dt_notify_email=0,
+----project setting
+default_tab_in_proj_detail=1,is_highlight_task=0,
+default_datasheet_tab=0,is_flag_comment=0,
+--search/Overview setting
+is_hide_withdraw_close=1,
+--Dv service urt setting
+use_ip=0,
+--DaVinci
+launch_type=-1,
+--Project_Owner_Notifications
+is_project_approve=0,is_project_reject=0,is_project_active=0,
+is_project_rick=0,is_project_late=0,is_project_reassign_previous=0,
+is_project_reassign_new=0,is_project_hold=0,is_project_reinstate=0,
+is_project_cancel=0,is_project_closed=0,
+--Workspace_Setting
+is_thumbnail=1,default_tab=1,sel_date=30,
+my_task_sort='1,0',my_proj_sort='0,0',my_request_sort='0,0',
+hide_sub_proj=0,display_current_cycle=0,default_login=1,
+default_overview='1;-1',
+--Project Initiator/Owner Tools
+is_multiple_assign=1,
+--Task setting
+return_back=0,
+--Email Address for workflow Notifications
+email_adr='koga.hiroyuki@kao.co.jp'
+--Out of the ..
+where comp_id=?;
+
+
+
+select * from tab_company;
