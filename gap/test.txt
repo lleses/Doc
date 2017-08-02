@@ -37,4 +37,12 @@ where comp_id=?;
 
 
 
-select * from tab_company;
+select * from tab_company where name='Kao Corp';
+
+
+
+
+update tab_user set forename=surname,surname=forename where user_id=1070;
+
+update tab_user set forename=surname,surname=forename where comp_id=? and email_adr like '%@kao.co.jp';
+
