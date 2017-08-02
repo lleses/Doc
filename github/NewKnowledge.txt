@@ -3,3 +3,11 @@
 2.REST服务
 	http://www.cnblogs.com/wintersun/p/3917574.html
 3.maven
+4.Headless Chrome
+	https://segmentfault.com/a/1190000009071883
+	http://www.jianshu.com/p/aec4b1216011
+	https://zhuanlan.zhihu.com/p/26810049
+	https://baijiahao.baidu.com/s?id=1572284826690845&wfr=spider&for=pc
+	https://github.com/ChromeDevTools/devtools-protocol
+	https://github.com/ChromeDevTools/debugger-protocol-viewer
+	https://chromedevtools.github.io/devtools-protocol/tot/
