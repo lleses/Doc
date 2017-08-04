@@ -19,4 +19,5 @@ https://github.com/dyc87112
 maven+spring boot
 http://blog.csdn.net/cuiy6642/article/details/52131399
 
+Redis
 

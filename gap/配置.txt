@@ -1,0 +1,21 @@
+datasheet配置
+
+-----------------------------------
+1. 	com.smartwave.util.SetAdminInfo
+
+/*if(map.get("datasheet_base_url")!=null && ((String)map.get("datasheet_base_url")).length()>0){
+				setDatasheetUrl((String)map.get("datasheet_base_url"));
+			}*/
+-----------------------------------			
+2.	external-url-setting.yml
+smartflow: 
+  smartflowDomain: http://192.168.1.7:8080/SmartFold
+  dvWebserviceURL: services/WebServiceAPIs?wsdl
+  smartflowServiceURL: /controller-service/datasheet
+  localhostDomain: http://192.168.1.7:8081
+  sessionDomain: 192.168.1.7
+-----------------------------------
+3.	datasheet.properties
+datasheet.url=http://192.168.1.7:8081/datasheet
+  
+  

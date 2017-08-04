@@ -1,9 +1,12 @@
+http://blog.didispace.com/books/
+
 1.springboot
 	http://blog.didispace.com/categories/Spring-Boot/
-2.REST服务
-	http://www.cnblogs.com/wintersun/p/3917574.html
-3.maven
-4.Headless Chrome
+2.maven
+3.mongodb
+4.Redis
+5.Spring Cloud
+5.Headless Chrome
 	https://segmentfault.com/a/1190000009071883
 	http://www.jianshu.com/p/aec4b1216011
 	https://zhuanlan.zhihu.com/p/26810049
@@ -11,3 +14,5 @@
 	https://github.com/ChromeDevTools/devtools-protocol
 	https://github.com/ChromeDevTools/debugger-protocol-viewer
 	https://chromedevtools.github.io/devtools-protocol/tot/
+6.REST服务
+	http://www.cnblogs.com/wintersun/p/3917574.html

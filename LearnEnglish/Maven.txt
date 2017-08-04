@@ -1,0 +1,26 @@
+--Maven
+Module	Location	Advanced
+Resolve
+Profiles
+Archetypes
+Configure
+Catalog
+
+Packaging
+ArtifactId
+Description
+Parent
+RelativePath
+
+0.0.1-SNAPSHOT
+SNAPSHOT意为快照，说明该项目还在开发中，是不稳定的版本。
+----------
+GroupID是项目组织唯一的标识符，实际对应JAVA的包的结构，是main目录里java的目录结构。
+ArtifactID就是项目的唯一的标识符，实际对应项目的名称，就是项目根目录的名称。
+一般GroupID就是填com.leafive.test这样子。
+
+
+GroupID 目录名称。类似com.didispace;
+
+artifactId 可以认为是Maven构建的项目名，比如你的项目中有子项目，就可以使用"项目名-子项目名"的命名方式
+packing 项目打包的类型，可以使jar、war、rar、ear、pom，默认是jar
