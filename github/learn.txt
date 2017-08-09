@@ -16,3 +16,7 @@ http://blog.didispace.com/books/
 	https://chromedevtools.github.io/devtools-protocol/tot/
 6.REST服务
 	http://www.cnblogs.com/wintersun/p/3917574.html
+	
+7.javascrip
+	http://www.runoob.com/jsref/met-element-addeventlistener.html
+	https://www.zhihu.com/question/21831950/answer/19459440
