@@ -1,5 +1,7 @@
+笔记
 http://blog.didispace.com/books/
 https://wenku.baidu.com/view/b15900be561252d381eb6e81.html
+
 
 1.springboot
 	http://blog.didispace.com/categories/Spring-Boot/
@@ -21,3 +23,44 @@ https://wenku.baidu.com/view/b15900be561252d381eb6e81.html
 7.javascrip
 	http://www.runoob.com/jsref/met-element-addeventlistener.html
 	https://www.zhihu.com/question/21831950/answer/19459440
+	
+	
+------------------------Spring boot 应用测试--------------------------------
+http://www.jianshu.com/p/972cd6b93206	
+//测试（单元测试、集成测试、接口测试）
+在web应用程序中，对Controller层的测试一般有两种方法：
+（1）发送http请求；第一种方法需要配置回归环境，通过修改代码统计的策略来计算覆盖率；
+（2）模拟http请求对象。
+
+//TODO 待整理
+测试它提供的RESTful接口是否能返回正确的响应数据。
+这种测试不同于单元测试，需要为之初始化完整的应用程序上下文、所有的spring bean都织入以及数据库中需要有测试数据，一般来说这种测试称之为集成测试或者接口测试。
+
+//RESTful ??
+
+//cobertura ??  是一种开源工具，它通过检测基本的代码，并观察在测试包运行时执行了哪些代码和没有执行哪些代码，来测量测试覆盖率。
+https://github.com/duqicauc/spring-template
+
+http://blog.geekidentity.com/spring/spring_boot_translation/#more
+
+druid ?? 为了监控数据库
+
+
+
+https://zhuanlan.zhihu.com/p/20919236
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
